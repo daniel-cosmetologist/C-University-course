@@ -8,5 +8,21 @@
         "*test.py"
     ],
     "python.testing.pytestEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "C_Cpp.errorSquiggles": "disabled",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "first_my_sql_connection",
+            "database": "myshop",
+            "username": "dj_den",
+            "password": ""
+        }
+    ]
 }
